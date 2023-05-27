@@ -3,13 +3,18 @@ import './App.css';
 import { useState } from 'react';
 import Function from './mycomponents/Function';
 import Class from './mycomponents/Class';
+import ExternalUsers from './mycomponents/ExternalUsers';
+
 
 function App() {
   return (
     <div className="App">
+        <ExternalUsers></ExternalUsers>
+        {/* <User></User> */}
+
         {/* <Counter></Counter> */}
-        <Function name="Nazibur Rahman"></Function>
-        <Class name="Nazibur Rahman"></Class>
+        {/* <Function name="Nazibur Rahman"></Function>
+        <Class name="Nazibur Rahman"></Class> */}
     </div>
   );
 }

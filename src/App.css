@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+.dataContainer{
+  background-color: blanchedalmond;
+  border: 2px solid red;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
